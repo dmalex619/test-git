@@ -46,6 +46,7 @@ namespace TestINotifyPropertyChanged
             (int x, int y) tpl = (12, 45);
             Console.WriteLine($"{tpl.x}   {tpl.y}");
             string hello = "Hello";
+            decimal dec = 123.0;
 
             // Async/await определены в версии .Net 4.5
             await Task.Run(() => Thread.Sleep(1000) );
