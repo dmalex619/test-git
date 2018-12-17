@@ -30,12 +30,12 @@ namespace TestINotifyPropertyChanged
             DataContext = model;
         }
 
-        private void btnTime_Click(object sender, RoutedEventArgs e)
+        private void BtnTime_Click(object sender, RoutedEventArgs e)
         {
             model.CurrentTime = DateTime.Now.ToLongTimeString();
         }
 
-        private void btnNumber_Click(object sender, RoutedEventArgs e)
+        private void BtnNumber_Click(object sender, RoutedEventArgs e)
         {
             model.RandNumber = new Random().Next();
         }

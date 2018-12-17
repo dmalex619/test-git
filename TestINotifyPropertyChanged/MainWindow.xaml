@@ -26,8 +26,8 @@
         <TextBox Text="{Binding Path=RandNumber}" MinWidth="100" Grid.Row="1" Grid.Column="1"/>
 
         <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
-            <Button Name="btnTime" Content="Get time" Click="btnTime_Click"/>
-            <Button Name="btnNumber" Content="Get Number" Click="btnNumber_Click"/>
+            <Button Name="btnTime" Content="Get time" Click="BtnTime_Click"/>
+            <Button Name="btnNumber" Content="Get Number" Click="BtnNumber_Click"/>
         </StackPanel>
     </Grid>
 
