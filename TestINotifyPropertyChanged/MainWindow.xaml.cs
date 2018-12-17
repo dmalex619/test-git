@@ -45,13 +45,16 @@ namespace TestINotifyPropertyChanged
             // Кортежи определены в версии .Net 4.7
             (int x, int y) tpl = (12, 45);
             Console.WriteLine($"{tpl.x}   {tpl.y}");
+
+            // Async/await определены в версии .Net 4.5
+            await Task.Run(() => Thread.Sleep(1000) );
+
+            // Игры с Git
             string hello = "Hello";
             decimal dec = 123.0M;
             string hd = hello + dec.ToString();
             Console.WriteLine(hd);
 
-            // Async/await определены в версии .Net 4.5
-            await Task.Run(() => Thread.Sleep(1000) );
         }
     }
 }
