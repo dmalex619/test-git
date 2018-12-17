@@ -54,7 +54,6 @@ namespace TestINotifyPropertyChanged
             decimal dec = 123.0M;
             string hd = hello + dec.ToString();
             Console.WriteLine(hd);
-
         }
     }
 }
