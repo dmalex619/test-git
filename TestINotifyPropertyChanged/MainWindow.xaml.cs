@@ -45,6 +45,7 @@ namespace TestINotifyPropertyChanged
             // Кортежи определены в версии .Net 4.7
             (int x, int y) tpl = (12, 45);
             Console.WriteLine($"{tpl.x}   {tpl.y}");
+            string hello = "Hello";
 
             // Async/await определены в версии .Net 4.5
             await Task.Run(() => Thread.Sleep(1000) );
