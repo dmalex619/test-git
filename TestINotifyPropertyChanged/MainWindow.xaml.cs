@@ -48,6 +48,7 @@ namespace TestINotifyPropertyChanged
             string hello = "Hello";
             decimal dec = 123.0M;
             string hd = hello + dec.ToString();
+            Console.WriteLine(hd);
 
             // Async/await определены в версии .Net 4.5
             await Task.Run(() => Thread.Sleep(1000) );
